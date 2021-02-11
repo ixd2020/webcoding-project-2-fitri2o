@@ -1,0 +1,361 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Google Sans Text",Roboto,Arial,sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+.logo{
+  text-align:center;
+  float:center;
+}
+.banner{
+  width: 1120px;
+  padding: 50px;
+  margin: 20px;
+}
+.banner2{
+  width: 1120px;
+  padding: 50px;
+  margin: 20px;
+  text-align:left;
+  
+}
+.banner2 h1{
+  font-family:"Google Sans Text",Roboto,Arial,sans-serif;
+  font-style:normal;
+  color:black;
+}
+
+.banner h1{
+  color:#212121;
+}
+
+.content{
+  text-align:center;
+  float:center;
+  width:100%;
+  margin: 5px;
+}
+.content2{
+  text-align:left;
+  float:left;
+  width:7%;
+  margin: 5px;
+}
+.nav{
+border-bottom: 1px solid;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+}
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+.nav a{
+	margin: 20px;
+	padding: 1px;
+	font-variant: small-caps;
+	font-size: 110%;
+	font-family: Arial;
+}
+
+#toggle{
+	display: none;
+}
+
+.img{
+   width: 1120px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.container{
+  width:100%;
+  position: absolute;
+  top: 30%;
+ transform: translateY(-50);
+  text-align:center;
+  color: #343434;
+}
+
+.container h1{
+  font-size:160px;
+  margin: 0;
+  font-weight:900;
+  letter-spacing:20px;
+}
+
+.container input{
+text-decoration:none;
+  background: #C0C0C0;
+  color: #fff;
+  padding 12px 24px;
+  display:inline-block;
+  border-radius:25px;
+  font-size:14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.container input:hover{
+  background: grey;
+}
+.openbtn{
+  border:none;
+}
+  
+.mainInfo{
+  
+  margin-left: 74px;
+  
+  text-align:left;
+  
+  
+}
+
+.mainheader{
+  padding-top:2rem;
+}
+.mainheader:hover{
+  border: 1px black;
+  box-shadow: 5px;
+}
+
+.leftheader{
+  width:50%;
+  float:center;
+}
+.rightheader{
+  margin-right:160px;
+  width:50%;
+  float:right;
+}
+
+.table1{
+  margin-left: 74px;
+  
+  text-align:left;
+  
+  box-shadow: 5px;
+}
+.table2{
+  margin-left: 74px;
+  
+  text-align:left;
+  
+  box-shadow: 5px;
+}
+.leftsection{
+  width:33.33%;
+  
+}
+.middlesection{
+  width:33.33%;
+  
+}
+.rightsection{
+  width:33.33%;
+  text-align:right;
+  
+  
+}
+
+
+
+.boxListbox{
+  padding-top:34px;
+  margin-left: 74px;
+}
+
+ul.listBox{
+  list-style-type: none;
+}
+
+.box1{
+  
+  width:33.33%;
+  float:left;
+}
+
+.box1 h3{
+  float:left;
+}
+.box2 h3{
+  float:left;
+}
+.box3 h3{
+  float:left;
+}
+.box2{
+  width:33.33%;
+  float:right;
+}
+.box3{
+  width:33.33%;
+  float:right;
+}
+
+.table3{
+  margin-left: 74px;
+  
+  text-align:left;
+  width:100%;
+  box-shadow: 5px;
+  background-color:
+}
+.userName{
+  float:right;
+}
+
+.feature{
+  margin-left:74px;
+  margin-top:74px;
+}
+
+.leftfeature{
+  text-align:left;
+}
+
+.rightfeature{
+  text-align:right;
+  color:blue;
+}
+
+.rightfeature2{
+  text-align:right;
+}
+
+footer{
+  margin-top:73px;
+  padding-top:2rem;
+  
+}
+
+footer.logo{
+  background: url(/static/images/google-g.svg);
+    background-size: contain;
+    float: left;
+    height: 2rem;
+    width: 2rem;
+}
+
+.aside{
+  float:right;
+      font-family: "Google Sans Text",Roboto,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+.table4{
+  text-align:left;
+  
+  box-shadow: 5px;
+}
+
+.tableRecource{
+  line-height:1;
+  margin-left:74px;
+  text-align:left;
+  width:100%;
+    border: 0;
+    outline: 0;
+    font-size: 130%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.resource1{
+  width:33%;
+  padding-right: 100px;
+}
+
+footer{
+  
+  width:100%;
+}
+
+.headerAbout{
+  margin-left:73px;
+  font-size:40px;
+  width:auto;
+  margin-top:4rem;
+  margin-bottom:2rem;
+}
+
+.bodySection{
+  margin-top:2rem;
+  margin-bottom:4rem;
+  margin-left:73px;
+  width:70%;
+}
+
+.theParagraph{
+  font-size: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.875rem;
+    letter-spacing: .00625rem;
+    font-variant-ligatures: none;
+  text-align:left;
+}
+
+.theParagraph a{
+  color:blue;
+  text-decoration: underline;
+}
+
+.theParagraph p{
+  color:rgba(0,0,0,.54);
+}
+
+.banner p{
+  font-family:"Google Sans Text",Roboto,Arial,sans-serif;
+  font-style:normal;
+  font-size:30px;
+}
+
+.errorMessage{
+  margin-left:73px;
+  margin-top:10rem;
+}
+
+.tableNews{
+  margin-left: 74px;
+  
+  text-align:left;
+  width:50%;
+}
+
+.tableNews p{
+  
+      font-size: 1rem;
+    line-height: 24px;
+    color: #424242;
+}
+
+.tableNews a{
+  color:blue;
+  text-decoration: underline;
+}
+
+.image{
+      width: 100%;
+    margin-bottom: 32px;
+    position: relative;
+  float:right;
+    
+}
+
+.leftTD{
+  padding-left:32px;
+}
+
+
+
+
